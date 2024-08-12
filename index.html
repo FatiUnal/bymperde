@@ -73,42 +73,35 @@
       <h3 class="">sonra sona eriyor</h3>
     </div>
 
-
-    <form id="burasi" action="">
-
+    <form id="burasi" action="https://formspree.io/f/mrbzkorg" method="POST">
       <div class="container">
         <div class="arabaImg">
           <img class="araba" src="./img/teslimat.jpg" alt="">
         </div>
-
+    
         <div class="formBilgileri">
           <p style="margin-bottom: 16px;">Kampanyadan yararlanmak için hemen randevunu
             oluştur. Perde seçimlerini mağazaya gitmeden evinde gör.</p>
-          <div className="labelAndInput">
-            <input placeholder="Ad Soyad" name="username" class="textInput" />
-          </div>
-
+          
           <div class="labelAndInput">
-            <input placeholder="Telefon" name="phone" class="textInput" />
+            <input placeholder="Ad Soyad" name="username" class="textInput" required />
           </div>
-
+    
           <div class="labelAndInput">
-            <textarea placeholder="Adres" class="textarea" name="" id=""></textarea>
+            <input placeholder="Telefon" name="phone" class="textInput" required />
           </div>
-
+    
+          <div class="labelAndInput">
+            <textarea placeholder="Adres" class="textarea" name="address" id="" required></textarea>
+          </div>
+    
           <div class="controller">
-            <a href="" class="button">Randevu Oluştur</a>
+            <button type="submit" class="button">Randevu Oluştur</button>
           </div>
         </div>
-
-
-      </div>
       </div>
     </form>
-
-
-
-
+    
   </section>
 
 
